@@ -1,0 +1,5 @@
+I imagined the matrix as a graph. So once we create a matrix with randomly generated numbers between 1-4, the program creates another matrix called List of neighbours.
+i-th row, 0-th collumn contains the number of neighbours, t-th collumn contains t-th neighbour.
+Then using Breath-first-search (which uses a self-made queue), I store the linked components in the forest array.
+When the biggest component is found, we store which elements are part of it in a new matrix, where 1 means the element is included in the biggest component, 0 it is not.
+Then when printing the matrix we check to see if the current elemnt is in the component and print it with a blue colour if it is.

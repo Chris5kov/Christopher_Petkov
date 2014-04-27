@@ -1,0 +1,1 @@
+A spiral traversal of a matrix using 1 external for loop and 4 internal for loops. 1 internal loop for every side of the matrix and the external one loops on the outer frame of the matrix, with every next loop the matrix becomes an n-2 matrix, until all of it is traversed.	

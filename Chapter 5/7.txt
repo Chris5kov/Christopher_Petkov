@@ -1,0 +1,2 @@
+We store the numbers using an array. Then we sort it using the bubble sort algorithm. This basically sorts the array by pushing the biggest number
+to the end of the array like a bubble until it is fully sorted.

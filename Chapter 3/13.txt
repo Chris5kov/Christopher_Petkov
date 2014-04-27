@@ -1,0 +1,18 @@
+Here we use direct bit manipulation using bit operators to change a bit in an integer. 
+Let's say we want it to be the 4-th bit. We take the integer 1 which in binary is 0000 0001, we use the << operator to shift the 1bit , 3 positions to the left.
+1 << p-1 , now the binary code is - 0000 1000, now let's say our number is 0000 0110 (6), we use the bit-or-operator | which makes sure that if the 4th position is a 0 it will become a 1.
+6 | (1 << p-1)
+0000 0110 (6)
+|
+0000 1000
+=
+0000 1110 (14)
+
+now if we want to make the 4-th bit a zero we need to reverse the bit-string we are using , so 0000 1000 becomes 1111 0111.
+Now we use the bit-and-operator & to make sure that if the 4-th position is a 1 it will become a 0 and the other positions will stay the same
+
+0000 1110 (14)
+&
+1111 0111
+=
+0000 0110 (6)

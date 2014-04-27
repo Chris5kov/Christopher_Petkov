@@ -1,0 +1,1 @@
+Using the divide by 10(to shift by one digit to the right) and the modulus of 10(to get the first digit) methods, we store all the digits in different variables and then use them to print out what the task requires of us.

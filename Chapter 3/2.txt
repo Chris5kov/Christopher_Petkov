@@ -1,0 +1,1 @@
+Again we use the modulus operator(%) and divide the number by 5 and 7. If both times the remainder is 0 we print out the number.

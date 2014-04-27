@@ -1,0 +1,1 @@
+We read the number and then start a while loop which divides the number - n, by {n-1,n-2...1} using the modulus operator, if at any point the remainder is anything but 0 the number is printed to be not prime and the loop breaks. If the loop ends naturally though then the number is a prime.

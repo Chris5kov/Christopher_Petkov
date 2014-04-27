@@ -1,0 +1,3 @@
+Using an ordered array of integers this program implements a binary search.
+We obtain a value, we "cut" the array in half and decide if the value goes to the left(<) or to the right (>) of the middle.
+Then we search for the value in that half of the array.

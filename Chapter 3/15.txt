@@ -1,0 +1,8 @@
+In this task I played around with some hex values. We read the number from the standart input, then in a new variable we store bits 3,4 and 5 exactly as they are.
+We do so with the & operator and the hex value 0x1c (16 base numbering system), as I understand it, depending on the operating system means
+0000 0000 0000 0000 0000 0000 0001 1100 - 32bit, double the bits for a 64bit OS, and so on.
+We then shift those bits 21 positions to the left, so now the 3,4,5 bits are the 24,25,26 bits respectively.
+We do the same for the 24,25,26 bits using the & operator and the hex value 0x3800000 and then shifting them 21 positions to the right.
+
+We make sure that the 3,4,5,24,25,26 bits in the original number are made to 0 using the & operator and the hex value 0xFC7FFFE3 which has all 1's except for those positions.
+Then using the temporary variables and the or | operator we set the bits to what the task requires of us.

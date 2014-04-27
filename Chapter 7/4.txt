@@ -1,0 +1,2 @@
+We use the seq variable to store the integer of the biggest sequence and the count variable to store how long the sequence is.
+With another 2 temp values we traverse the array and find the longest sequence and it's integer value.

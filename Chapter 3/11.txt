@@ -1,0 +1,1 @@
+We convert the integer into binary and store at in an array. The position of the required bit is at Array[ length-p	];

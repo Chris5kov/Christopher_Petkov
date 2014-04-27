@@ -1,0 +1,1 @@
+Simple case, to see if a number is odd or even we divide it by 2 with the modulus operator(%). The resulting integer is the remainder of the division, if it is 0 - number is even, if it's 1 - number is odd.

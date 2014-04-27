@@ -1,0 +1,1 @@
+Using a for loop we traverse the array and assign every member to be 5 times bigger.

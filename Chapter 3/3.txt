@@ -1,0 +1,1 @@
+First we divide the number by 100, the resulting integer is the same number but without the first 2 digits, now we need to extract the 1st digit. We do so using the modulus operator(%) and dividing by 10, which gives us the first digit of the number.

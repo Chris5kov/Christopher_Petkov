@@ -1,0 +1,1 @@
+After getting the number from the user, we convert it to binary and store it in a string. Then the 1st bit of the number will be the last element of the char array. To see what the 3rd bit is we use the length of the array minus 3.
